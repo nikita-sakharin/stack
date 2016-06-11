@@ -11,8 +11,6 @@ typedef int errno_t;
 #define ERROR_EMPTY_STACK             (1 << 4)
 #define ERROR_CORRUPTED_DATA          (1 << 5)
 
-typedef struct stacknode StackNode;
-
 typedef struct stack Stack;
 
 errno_t stack_create(Stack ** const restrict stack_head);
