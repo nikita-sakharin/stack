@@ -3,6 +3,8 @@
 #include <limits.h>
 #include "stack.h"
 
+typedef struct stacknode StackNode;
+
 struct stacknode
 {
 	void *data_ptr;
